@@ -21,7 +21,7 @@ int main(){
         }
     }
 
-    l = (n1 * n2) / h;
+    l = (n1 * n2) / h;    // lcm(num1, num2) * hcf(num1, num2) = num1 * num2
 
     printf("HCF = %d\nLCM = %d", h, l);
     return 0;
